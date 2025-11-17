@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PaperSearch.io</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>顶会论文检索系统</h1>
+    <p>支持论文标题、作者、单位、会议（Venue）搜索</p>
+  </header>
+
+  <main>
+    <input type="text" id="searchInput" placeholder="输入关键词（标题/作者/单位/会议）..." autofocus />
+
+    <div id="filters">
+      <label>
+        <input type="checkbox" id="filterNeurIPS"> NeurIPS
+      </label>
+      <label>
+        <input type="checkbox" id="filterICML"> ICML
+      </label>
+      <label>
+        <input type="checkbox" id="filterCVPR"> CVPR
+      </label>
+      <label>
+        <input type="checkbox" id="filterACL"> ACL
+      </label>
+      <!-- 可继续添加其他顶会 -->
+    </div>
+
+    <div id="results"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
