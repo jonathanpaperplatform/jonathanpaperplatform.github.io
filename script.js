@@ -1,5 +1,5 @@
 // 配置：顶会列表 + 年份范围
-const VENUES = ['CVPR', 'ICCV'];
+const VENUES = ['CVPR', 'ICCV', 'NeurIPS'];
 const YEARS = [2023, 2024, 2025]; // 根据你有的数据调整
 
 let allPapers = [];
