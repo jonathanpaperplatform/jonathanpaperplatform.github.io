@@ -3,35 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>PaperSearch.io</title>
+  <title>顶会论文检索 · GitHub Pages</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>顶会论文检索系统</h1>
-    <p>支持论文标题、作者、单位、会议（Venue）搜索</p>
+    <p>支持按标题、作者、单位、会议搜索 | 数据按会议+年份组织</p>
   </header>
 
   <main>
-    <input type="text" id="searchInput" placeholder="输入关键词（标题/作者/单位/会议）..." autofocus />
+    <input type="text" id="searchInput" placeholder="输入关键词（如：transformer、Stanford、NeurIPS）..." autofocus />
 
     <div id="filters">
-      <label>
-        <input type="checkbox" id="filterNeurIPS"> NeurIPS
-      </label>
-      <label>
-        <input type="checkbox" id="filterICML"> ICML
-      </label>
-      <label>
-        <input type="checkbox" id="filterCVPR"> CVPR
-      </label>
-      <label>
-        <input type="checkbox" id="filterACL"> ACL
-      </label>
-      <!-- 可继续添加其他顶会 -->
+      <label><input type="checkbox" id="filterNeurIPS"> NeurIPS</label>
+      <label><input type="checkbox" id="filterICML"> ICML</label>
+      <label><input type="checkbox" id="filterCVPR"> CVPR</label>
+      <label><input type="checkbox" id="filterACL"> ACL</label>
+      <label><input type="checkbox" id="filterICLR"> ICLR</label>
+      <label><input type="checkbox" id="filterAAAI"> AAAI</label>
+      <label><input type="checkbox" id="filterEMNLP"> EMNLP</label>
     </div>
 
-    <div id="results"></div>
+    <div id="results">
+      <p>正在加载数据...</p>
+    </div>
   </main>
 
   <script src="script.js"></script>
