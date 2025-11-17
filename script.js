@@ -10,7 +10,7 @@ function generateFileList() {
   const files = [];
   for (const venue of VENUES) {
     for (const year of YEARS) {
-      const shortYear = String(year).slice(-2); // 2025 → "25"
+      const shortYear = String(year); // 2025 → "25"
       files.push(`data/${venue}${shortYear}.json`);
     }
   }
