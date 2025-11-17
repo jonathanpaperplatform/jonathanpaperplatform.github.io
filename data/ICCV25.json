@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Scaling Laws for Reward Modeling",
+    "authors": ["John Doe", "Jane Smith"],
+    "affiliations": ["Stanford University", "Meta AI"],
+    "venue": "NeurIPS",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2501.12345"
+  },
+  {
+    "title": "Diffusion Models Are Secretly Autoencoders",
+    "authors": ["Alice Lee"],
+    "affiliations": ["MIT"],
+    "venue": "NeurIPS",
+    "year": 2025,
+    "url": "https://arxiv.org/abs/2502.67890"
+  }
+]
